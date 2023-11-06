@@ -52,7 +52,7 @@ li a{
 
 }
 
-img{
+.logo{
   width: 20%;
   height: 10vh;
 }
@@ -82,6 +82,15 @@ section{
 
 }
 
+.sect1{
+  height: 60vh;
+}
+
+.sect2{
+  height: 60vh;
+  flex-direction: column;
+}
+
 .h1{
   font-family: 'Cabin', sans-serif, 6rem; 
   font-weight: 700;
@@ -97,6 +106,9 @@ section{
   font-family: 'Cabin', sans-serif; 
   font-weight: 700;
   font-size: 2.5rem;
+  display: flex;
+  margin-left: 80%;
+  justify-items: end;
 }
 
 .h4{
@@ -109,6 +121,8 @@ section{
   font-family: 'Cabin', sans-serif; 
   font-weight: 700;
   font-size: 1.3rem;
+  margin: 10% 0;
+
 }
 
 .div p{
@@ -120,13 +134,37 @@ p a{
   text-underline-offset: 0.25rem;
 }
 
+.dev-img{
+  width: 20%;
+  height: 60vh;
+}
+
 .container{
   display: flex;
-  flex-direction: row;
 }
 
 .projet{
   background: #b7094c;
+  flex-direction: row;
 }
+
+.g1{
+  margin: 0 10%;
+  padding: 20px 0 15px 10px;
+
+}
+
+.m2{
+  margin: 0;
+  padding: 20px 0 15px 10px;
+
+}
+
+.d3{
+  margin: 0 10%;
+  padding: 20px 0 15px 10px;
+
+}
+
 /* footer */
 
