@@ -64,6 +64,7 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   height: 120vh;
+
 }
 
 a{
@@ -133,6 +134,7 @@ h3{
   font-size: 2.5rem;
   display: flex;
   margin-left: 10%;
+  margin-bottom: 20px;
   text-transform:uppercase;
 
 }
