@@ -24,7 +24,9 @@ html{
   hsl(317deg 45% 35%) 93%,
   hsl(324deg 52% 35%) 100%
 );
+
 }
+
 
 /* header */
 
@@ -61,6 +63,7 @@ li a{
 body{
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
+  height: 120vh;
 }
 
 a{
@@ -76,23 +79,44 @@ main{
 }
 
 section{
-  display: flex;
-  flex-direction: row;
+
   color: #fff;
 
 }
 
 .sect1{
   height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+
+}
+
+.dev1{
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  align-content: center;
+  justify-content:center;
+
+}
+
+.dev-img{
+  margin-right: 10%;
+
+
 }
 
 .sect2{
   height: 60vh;
   flex-direction: column;
+  align-content: center;
 }
 
 .h1{
-  font-family: 'Cabin', sans-serif, 6rem; 
+  font-family: 'Cabin', sans-serif; 
+  font-size: 6rem; 
   font-weight: 700;
 }
 
@@ -137,6 +161,7 @@ p a{
 .dev-img{
   width: 20%;
   height: 60vh;
+  flex-direction: column;
 }
 
 .container{
@@ -168,3 +193,8 @@ p a{
 
 /* footer */
 
+footer{
+  background: #fff;
+  height: 20vh;
+
+}
