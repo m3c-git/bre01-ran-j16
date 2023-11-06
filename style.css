@@ -37,6 +37,7 @@ ul{
   width: 80%;
   justify-content: space-around;
   align-items: center;
+  margin-top: 5px;
 
 }
 
@@ -44,6 +45,11 @@ li{
   text-transform: uppercase;
   flex-direction: column;
   list-style-type:none;
+}
+
+li a{
+  color: #fff;
+
 }
 
 img{
